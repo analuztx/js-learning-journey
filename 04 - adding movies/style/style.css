@@ -1,0 +1,64 @@
+body {
+    font-family: montserrat;
+    text-align: center;
+    background-image: url("https://w.forfun.com/fetch/81/8155f13517db6bd781a29bfe77cffbf9.jpeg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  #listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #000;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: rgb(10, 35, 162);
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+
+  @font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+  }
