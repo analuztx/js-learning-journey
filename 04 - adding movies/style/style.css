@@ -6,28 +6,39 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
   }
   
   .container {
     text-align: center;
     padding: 20px;
+    width: 40%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #ffffffda;
   }
   
   .page-title {
-    color: #ffffff;
+    color: rgb(0, 13, 81);
     margin: 0 0 5px;
   }
   
   .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
+    color: rgb(3, 20, 105);
+    margin-top: 20px;
+    max-height: 250px;
+    display: inline-block;
   }
   
   #listaFilmes img {
-    margin: 10px;
+    margin: 50px;
     max-height: 250px;
     border-radius: 4px;
-    box-shadow: 0px 0px 10px #000;
+    box-shadow: 0px 0px 5px #000;
   }
   
   .form-wrapper {
@@ -37,18 +48,21 @@ body {
   .form-wrapper input {
     display: block;
     margin: 0 auto;
-    padding: 10px 15px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px;
+    font-family: montserrat;
+    font-size: 12px;
   }
   
   .form-wrapper button {
     border: 0;
     color: #ffffff;
     background: rgb(10, 35, 162);
-    font-weight: bold;
-    padding: 15px 20px;
-    font-size: 16px;
+    padding: 10px 15px;
+    font-size: 14px;
     border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 50px;
     cursor: pointer;
     transition: 0.3s;
   }
