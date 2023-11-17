@@ -1,4 +1,5 @@
 function adicionarFilme() {
+    // pegando o valor de dentro do input
     var filmeFavorito = document.getElementById('filme').value;
     var trailerFilme = document.getElementById('trailer').value;
 
