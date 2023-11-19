@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
 
     let lista = []
 
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     imgAnime.src = lista[2];
 
     let imageContainer = document.getElementById('image-container');
-        imageContainer.appendChild(imgSerie);
-        imageContainer.appendChild(imgFilme);
-        imageContainer.appendChild(imgAnime);
+    imageContainer.appendChild(imgSerie);
+    imageContainer.appendChild(imgFilme);
+    imageContainer.appendChild(imgAnime);
 });
